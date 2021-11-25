@@ -1,40 +1,33 @@
----
-name: name
-description: desc
-title: title
-labels:
-  - "label"
-assignees:
-  - "octocat"
-body:
-- type: textarea
-  attributes:
-    label: Operating System
-    description: What operating system are you using?
-    placeholder: "Example: macOS Big Sur"
-    value: operating system
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Version
-    description: What version of our software are you running?
-    multiple: false
-    options:
-      - "1.0.2 (Default)"
-      - "1.0.3 (Edge)"
-  validations:
-    required: true
-- type: checkboxes
-  attributes:
-    label: Code of Conduct
-    description: The Code of Conduct helps create a safe space for everyone. We require
-      that everyone agrees to it.
-    options:
-      - label: I agree to follow this project's [Code of Conduct](link/to/coc)
-        required: true
-- type: markdown
-  attributes:
-    value: "Thanks for completing our form!"
----
-body
+<!--- Please provide a general summary of your changes in the title above -->
+
+## Pull request type
+
+<!-- Please try to limit your pull request to one type, submit multiple pull requests if needed. -->
+
+Please check the type of change your PR introduces:
+
+- [ ] Bugfix
+- [ ] Feature
+- [ ] Code style update (formatting, renaming)
+- [ ] Refactoring (no functional changes, no api changes)
+- [ ] Build related changes
+- [ ] Documentation content changes
+- [ ] Other (please describe):
+
+## What is the current behavior?
+
+<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
+
+Issue Number: N/A
+
+## What is the new behavior?
+
+<!-- Please describe the behavior or changes that are being added by this PR. -->
+
+-
+-
+-
+
+## Other information
+
+<!-- Any other information that is important to this PR such as screenshots of how the component looks before and after the change. -->
