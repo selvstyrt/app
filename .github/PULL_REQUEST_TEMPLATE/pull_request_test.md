@@ -1,3 +1,4 @@
+---
 name: name
 description: desc
 title: title
@@ -35,3 +36,5 @@ body:
 - type: markdown
   attributes:
     value: "Thanks for completing our form!"
+---
+body
