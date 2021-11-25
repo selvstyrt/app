@@ -1,0 +1,12 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  labels:
+    selvstyrt.github.io/owner: "erik"
+  annotations:
+    selvstyrt.github.io/task: "github.com/issue"
+spec:
+  entrypoint: whalesay
+  templates:
+    - name: whalesay
+  
